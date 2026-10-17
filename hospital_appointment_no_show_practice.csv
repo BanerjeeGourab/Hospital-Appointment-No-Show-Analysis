@@ -1,0 +1,601 @@
+Patient_ID,Age,Gender,Department,Appointment_Date,Scheduled_Date,Appointment_Type,SMS_Reminder,Attendance_Status
+P1001,74.0,Male,Orthopedics,2025-04-22,2025-04-07,New,Yes,Attended
+P1002,74.0,Male,Cardiology,2025-06-17,2025-06-03,Follow-up,Yes,Attended
+P1003,55.0,Female,Orthopedics,2025-01-10,2024-12-13,New,,No-show
+P1004,52.0,Female,General Medicine,2025-03-13,2025-03-12,Follow-up,No,Attended
+P1005,76.0,Female,General Medicine,2025-04-08,2025-04-02,Follow-up,No,Attended
+P1006,,Male,Orthopedics,2025-04-26,,Follow-up,No,Attended
+P1007,22.0,Female,General Medicine,2025-06-25,2025-06-25,Follow-up,,Attended
+P1008,70.0,Female,General Medicine,2025-05-16,2025-04-27,Follow-up,Yes,Attended
+P1009,63.0,Male,General Medicine,2025-05-16,2025-05-14,Follow-up,No,Attended
+P1010,55.0,Female,General Medicine,2025-03-30,2025-03-20,Follow-up,Yes,No-show
+P1011,77.0,Male,Pediatrics,2025-01-06,2024-12-29,New,Yes,Attended
+P1012,64.0,Male,General Medicine,2025-05-01,2025-04-19,Follow-up,No,No-show
+P1013,20.0,Female,Orthopedics,2025-03-01,2025-02-09,Follow-up,,Attended
+P1014,42.0,Male,General Medicine,2025-02-25,2025-02-25,Follow-up,No,Attended
+P1015,25.0,Female,Pediatrics,2025-01-19,2024-12-23,New,No,Attended
+P1016,44.0,Male,Cardiology,2025-01-08,2025-01-02,Follow-up,Yes,Attended
+P1017,22.0,Female,Orthopedics,2025-05-29,2025-05-22,Follow-up,No,Attended
+P1018,36.0,Male,Orthopedics,2025-01-12,2025-01-12,Follow-up,No,Attended
+P1019,48.0,Female,Orthopedics,2025-01-14,2024-12-15,New,Yes,Attended
+P1020,52.0,Male,Orthopedics,2025-04-30,2025-04-11,Follow-up,Yes,Attended
+P1021,66.0,Male,Dermatology,2025-01-06,2024-12-08,Follow-up,Yes,No-show
+P1022,36.0,Female,Cardiology,2025-03-26,2025-03-12,New,No,No-show
+P1023,54.0,Male,General Medicine,2025-06-13,,Follow-up,,Attended
+P1024,56.0,Female,Cardiology,2025-03-14,2025-02-25,New,Yes,No-show
+P1025,73.0,Male,Cardiology,2025-03-17,2025-02-28,New,Yes,No-show
+P1026,76.0,Male,Cardiology,2025-06-04,2025-05-18,New,Yes,Attended
+P1027,60.0,Male,Cardiology,2025-03-21,2025-03-16,New,Yes,Attended
+P1028,66.0,Female,General Medicine,2025-01-26,2025-01-16,,Yes,Attended
+P1029,47.0,Female,Cardiology,2025-05-23,2025-05-23,Follow-up,Yes,Attended
+P1030,22.0,Male,General Medicine,2025-01-29,2025-01-05,New,Yes,Attended
+P1031,23.0,Female,Pediatrics,2025-02-19,2025-02-15,Follow-up,,Attended
+P1032,52.0,Female,Orthopedics,2025-04-22,2025-03-28,Follow-up,Yes,Attended
+P1033,61.0,Male,General Medicine,2025-06-08,2025-06-08,Follow-up,No,Attended
+P1034,81.0,Female,Cardiology,2025-01-12,2024-12-17,Follow-up,Yes,No-show
+P1035,26.0,Male,General Medicine,2025-04-24,2025-04-01,Follow-up,No,Attended
+P1036,27.0,Female,Pediatrics,2025-02-10,2025-02-06,Follow-up,No,Attended
+P1037,36.0,Female,Dermatology,2025-06-17,2025-06-17,Follow-up,No,Attended
+P1038,74.0,Male,Cardiology,2025-04-20,2025-04-12,Follow-up,Yes,Attended
+P1039,21.0,Male,Orthopedics,2025-03-31,2025-03-14,Follow-up,Yes,No-show
+P1040,41.0,Female,General Medicine,2025-02-25,2025-02-18,Follow-up,No,Attended
+P1041,51.0,Female,Orthopedics,2025-06-21,2025-06-17,New,Yes,No-show
+P1042,61.0,Female,Dermatology,2025-05-22,2025-04-30,Follow-up,Yes,Attended
+P1043,58.0,Male,,2025-05-24,2025-05-10,Follow-up,No,Attended
+P1044,35.0,,Dermatology,2025-01-17,2025-01-11,Follow-up,Yes,Attended
+P1045,74.0,Male,Orthopedics,2025-01-10,2024-12-15,Follow-up,No,No-show
+P1046,84.0,Male,Cardiology,2025-01-15,2024-12-16,Follow-up,Yes,Attended
+P1047,52.0,Female,Dermatology,2025-05-27,2025-05-12,New,,No-show
+P1048,30.0,Female,General Medicine,2025-05-16,2025-05-01,New,Yes,Attended
+P1049,50.0,Male,Dermatology,2025-03-10,2025-02-10,Follow-up,Yes,No-show
+P1050,45.0,,Orthopedics,2025-03-03,2025-02-21,New,,Attended
+P1051,39.0,Female,Pediatrics,2025-02-15,2025-02-07,Follow-up,No,Attended
+P1052,65.0,Male,Dermatology,2025-04-26,2025-04-17,New,No,No-show
+P1053,30.0,Female,General Medicine,2025-04-28,2025-04-10,Follow-up,Yes,Attended
+P1054,34.0,Female,Pediatrics,2025-05-05,2025-04-10,Follow-up,Yes,Attended
+P1055,19.0,Female,Dermatology,2025-04-11,2025-03-14,Follow-up,Yes,Attended
+P1056,22.0,Female,Dermatology,2025-03-05,2025-03-03,New,Yes,Attended
+P1057,30.0,Female,General Medicine,2025-04-27,2025-03-30,New,,Attended
+P1058,29.0,Male,Pediatrics,2025-04-23,2025-04-21,New,Yes,Attended
+P1059,18.0,Male,General Medicine,2025-01-28,2025-01-25,Follow-up,Yes,Attended
+P1060,28.0,Female,General Medicine,2025-03-11,2025-02-14,New,No,Attended
+P1061,66.0,Male,General Medicine,2025-05-11,2025-05-09,Follow-up,No,Attended
+P1062,42.0,Female,Pediatrics,2025-06-02,2025-05-18,Follow-up,Yes,Attended
+P1063,78.0,Male,General Medicine,2025-03-27,2025-03-01,Follow-up,No,Attended
+P1064,66.0,Male,Pediatrics,2025-02-07,2025-02-04,New,No,Attended
+P1065,60.0,Male,Pediatrics,2025-04-23,2025-04-23,Follow-up,No,No-show
+P1066,61.0,Male,Orthopedics,2025-05-14,2025-04-27,Follow-up,Yes,Attended
+P1067,39.0,Male,General Medicine,2025-03-29,2025-03-22,Follow-up,Yes,Attended
+P1068,39.0,Female,General Medicine,2025-06-09,2025-06-09,Follow-up,Yes,Attended
+P1069,75.0,Female,Dermatology,2025-01-11,2024-12-27,New,No,Attended
+P1070,56.0,Female,Pediatrics,2025-03-01,2025-03-01,Follow-up,Yes,Attended
+P1071,62.0,Male,General Medicine,2025-05-29,2025-05-25,New,No,Attended
+P1072,41.0,Female,Dermatology,2025-04-04,2025-03-16,Follow-up,Yes,Attended
+P1073,64.0,Female,Dermatology,2025-03-27,2025-03-05,Follow-up,No,No-show
+P1074,55.0,Male,Pediatrics,2025-01-17,2024-12-23,Follow-up,Yes,Attended
+P1075,69.0,Female,Orthopedics,2025-01-15,2025-01-15,Follow-up,No,No-show
+P1076,43.0,Female,General Medicine,2025-02-20,2025-02-20,Follow-up,Yes,Attended
+P1077,70.0,Male,Orthopedics,2025-03-08,2025-02-17,Follow-up,Yes,Attended
+P1078,23.0,Male,General Medicine,2025-02-14,2025-01-25,Follow-up,No,Attended
+P1079,42.0,Male,General Medicine,2025-02-02,2025-01-15,New,No,Attended
+P1080,29.0,Female,General Medicine,2025-04-06,2025-03-21,Follow-up,Yes,Attended
+P1081,53.0,Male,Orthopedics,2025-03-13,2025-03-13,New,Yes,No-show
+P1082,18.0,Female,Dermatology,2025-02-21,,Follow-up,Yes,Attended
+P1083,82.0,Male,Orthopedics,2025-02-16,2025-02-16,Follow-up,Yes,No-show
+P1084,79.0,Female,Pediatrics,2025-02-24,2025-02-20,Follow-up,Yes,Attended
+P1085,30.0,Male,General Medicine,2025-01-14,2025-01-04,Follow-up,Yes,Attended
+P1086,,Male,Orthopedics,2025-04-29,2025-04-10,New,Yes,No-show
+P1087,55.0,Female,General Medicine,2025-01-28,2025-01-12,New,No,Attended
+P1088,76.0,Male,General Medicine,2025-06-09,2025-05-24,New,No,Attended
+P1089,60.0,Male,General Medicine,2025-04-01,2025-03-30,Follow-up,Yes,Attended
+P1090,36.0,Male,Pediatrics,2025-06-27,2025-06-14,Follow-up,Yes,No-show
+P1091,55.0,Female,Dermatology,2025-01-07,2024-12-24,New,Yes,No-show
+P1092,26.0,Male,General Medicine,2025-03-14,2025-02-27,New,No,No-show
+P1093,82.0,Female,Cardiology,2025-05-10,2025-04-23,Follow-up,Yes,No-show
+P1094,35.0,Female,Orthopedics,2025-05-21,2025-04-25,Follow-up,No,Attended
+P1095,77.0,Female,Cardiology,2025-05-13,2025-04-24,Follow-up,Yes,No-show
+P1096,60.0,Female,,2025-05-27,2025-05-27,Follow-up,Yes,Attended
+P1097,24.0,Male,General Medicine,2025-05-27,2025-05-25,New,Yes,Attended
+P1098,56.0,Female,Pediatrics,2025-04-08,,Follow-up,Yes,Attended
+P1099,,Female,Pediatrics,2025-04-01,2025-03-29,Follow-up,Yes,Attended
+P1100,31.0,Female,General Medicine,2025-03-27,2025-03-24,New,Yes,Attended
+P1101,24.0,Female,Orthopedics,2025-03-28,2025-03-11,Follow-up,Yes,Attended
+P1102,74.0,Female,General Medicine,2025-06-12,2025-05-24,Follow-up,Yes,Attended
+P1103,50.0,Female,Orthopedics,2025-06-24,2025-06-20,Follow-up,Yes,Attended
+P1104,69.0,Female,General Medicine,2025-05-22,2025-05-03,New,No,Attended
+P1105,53.0,Female,General Medicine,2025-03-04,2025-03-04,New,Yes,Attended
+P1106,83.0,Female,Cardiology,2025-05-25,2025-05-25,Follow-up,Yes,No-show
+P1107,20.0,Male,General Medicine,2025-01-09,2025-01-03,Follow-up,Yes,No-show
+P1108,46.0,Female,General Medicine,2025-06-10,2025-05-25,New,Yes,Attended
+P1109,19.0,Female,Pediatrics,2025-06-02,2025-05-17,Follow-up,No,Attended
+P1110,64.0,Male,Cardiology,2025-05-31,2025-05-18,Follow-up,No,No-show
+P1111,75.0,Male,,2025-03-02,2025-02-12,New,No,Attended
+P1112,29.0,Male,General Medicine,2025-01-15,2025-01-02,New,Yes,Attended
+P1113,76.0,Female,Dermatology,2025-04-24,2025-03-29,,Yes,Attended
+P1114,18.0,Female,General Medicine,2025-06-30,2025-06-03,Follow-up,No,Attended
+P1115,19.0,Female,,2025-02-19,2025-02-10,Follow-up,Yes,Attended
+P1116,45.0,Female,General Medicine,2025-02-24,2025-02-01,Follow-up,Yes,Attended
+P1117,20.0,Female,General Medicine,2025-06-29,2025-06-15,Follow-up,Yes,No-show
+P1118,61.0,Female,Pediatrics,2025-02-07,2025-02-03,Follow-up,No,Attended
+P1119,24.0,Male,General Medicine,2025-01-14,2024-12-30,Follow-up,,No-show
+P1120,84.0,Male,Dermatology,2025-04-04,2025-03-10,Follow-up,No,Attended
+P1121,21.0,Female,,2025-03-28,2025-03-23,New,No,Attended
+P1122,58.0,Female,General Medicine,2025-03-06,2025-02-15,Follow-up,Yes,No-show
+P1123,44.0,Male,Orthopedics,2025-03-29,2025-02-28,Follow-up,Yes,Attended
+P1124,38.0,Female,Orthopedics,2025-01-08,2025-01-07,Follow-up,Yes,Attended
+P1125,72.0,Female,General Medicine,2025-01-04,2025-01-04,New,No,Attended
+P1126,72.0,Male,,2025-02-04,2025-02-04,New,No,No-show
+P1127,47.0,Male,General Medicine,2025-01-02,2025-01-01,New,Yes,Attended
+P1128,46.0,Male,General Medicine,2025-03-23,2025-03-03,New,No,Attended
+P1129,,Female,General Medicine,2025-04-30,2025-04-11,New,Yes,Attended
+P1130,69.0,Female,Orthopedics,2025-02-13,2025-01-29,Follow-up,Yes,Attended
+P1131,51.0,Female,Pediatrics,2025-02-12,2025-02-08,New,Yes,Attended
+P1132,63.0,Male,Pediatrics,2025-04-14,2025-03-31,Follow-up,Yes,Attended
+P1133,64.0,Male,Orthopedics,2025-01-26,2025-01-15,Follow-up,Yes,Attended
+P1134,63.0,Female,Cardiology,2025-03-11,2025-02-20,New,No,Attended
+P1135,67.0,Male,General Medicine,2025-04-19,2025-03-20,New,No,Attended
+P1136,43.0,Female,General Medicine,2025-04-01,2025-03-15,New,Yes,No-show
+P1137,82.0,Male,Dermatology,2025-01-20,2025-01-12,Follow-up,Yes,Attended
+P1138,35.0,Female,General Medicine,2025-04-01,2025-03-24,Follow-up,No,Attended
+P1139,24.0,Female,Dermatology,2025-03-17,2025-03-13,Follow-up,No,Attended
+P1140,51.0,Male,General Medicine,2025-03-08,2025-02-15,Follow-up,No,Attended
+P1141,41.0,Female,General Medicine,2025-06-25,2025-06-25,Follow-up,Yes,No-show
+P1142,57.0,Male,Pediatrics,2025-03-12,2025-02-28,Follow-up,No,Attended
+P1143,85.0,Female,Pediatrics,2025-01-10,2025-01-04,Follow-up,Yes,Attended
+P1144,70.0,Female,General Medicine,2025-01-31,2025-01-10,Follow-up,Yes,No-show
+P1145,18.0,Female,General Medicine,2025-02-21,2025-01-31,Follow-up,Yes,Attended
+P1146,47.0,Female,General Medicine,2025-06-07,2025-05-21,Follow-up,Yes,Attended
+P1147,22.0,Male,Orthopedics,2025-01-15,2025-01-05,New,Yes,Attended
+P1148,28.0,Male,General Medicine,2025-01-30,2025-01-05,New,,No-show
+P1149,65.0,Male,Dermatology,2025-04-15,2025-03-18,Follow-up,No,Attended
+P1150,26.0,Female,General Medicine,2025-01-03,2024-12-19,Follow-up,No,Attended
+P1151,,Female,Orthopedics,2025-02-14,,New,Yes,Attended
+P1152,58.0,Female,General Medicine,2025-04-09,2025-04-02,New,Yes,Attended
+P1153,79.0,Female,Pediatrics,2025-06-08,2025-05-18,Follow-up,Yes,Attended
+P1154,49.0,Male,Cardiology,2025-03-12,,Follow-up,Yes,No-show
+P1155,48.0,Male,General Medicine,2025-02-06,2025-01-29,Follow-up,,Attended
+P1156,56.0,Female,Dermatology,2025-05-12,2025-04-23,New,Yes,No-show
+P1157,67.0,Male,General Medicine,2025-01-08,2024-12-27,Follow-up,Yes,Attended
+P1158,72.0,Female,Pediatrics,2025-05-19,2025-05-19,Follow-up,No,Attended
+P1159,43.0,Female,,2025-02-18,2025-01-28,Follow-up,,Attended
+P1160,29.0,Female,General Medicine,2025-02-17,2025-02-04,New,No,Attended
+P1161,32.0,Male,Pediatrics,2025-04-08,2025-04-03,Follow-up,No,Attended
+P1162,66.0,Female,Pediatrics,2025-01-06,2025-01-06,New,Yes,Attended
+P1163,20.0,Male,General Medicine,2025-04-17,2025-03-31,Follow-up,No,Attended
+P1164,60.0,,General Medicine,2025-06-12,2025-05-30,New,Yes,Attended
+P1165,55.0,Male,Orthopedics,2025-06-09,2025-05-23,Follow-up,Yes,Attended
+P1166,19.0,Male,General Medicine,2025-01-08,2024-12-09,New,Yes,Attended
+P1167,25.0,Male,General Medicine,2025-01-28,2024-12-29,Follow-up,No,Attended
+P1168,79.0,Female,Cardiology,2025-03-15,2025-03-05,Follow-up,Yes,Attended
+P1169,45.0,Male,Cardiology,2025-04-04,2025-03-31,New,No,Attended
+P1170,84.0,Female,Dermatology,2025-02-24,2025-02-01,New,Yes,Attended
+P1171,69.0,Female,General Medicine,2025-03-29,2025-03-18,New,Yes,Attended
+P1172,85.0,Male,General Medicine,2025-06-25,2025-06-14,Follow-up,Yes,No-show
+P1173,26.0,Female,Cardiology,2025-02-03,2025-01-05,New,Yes,No-show
+P1174,,Male,Orthopedics,2025-04-29,2025-04-23,Follow-up,No,No-show
+P1175,,Male,Pediatrics,2025-01-05,2024-12-11,Follow-up,Yes,Attended
+P1176,45.0,Male,Orthopedics,2025-05-19,2025-05-19,Follow-up,Yes,Attended
+P1177,34.0,Male,Dermatology,2025-06-11,2025-05-23,Follow-up,Yes,Attended
+P1178,72.0,Female,Dermatology,2025-03-08,2025-03-01,Follow-up,No,Attended
+P1179,47.0,Female,Orthopedics,2025-06-24,2025-06-03,Follow-up,No,Attended
+P1180,43.0,Male,General Medicine,2025-03-26,2025-03-15,Follow-up,Yes,Attended
+P1181,79.0,Female,General Medicine,2025-03-28,2025-02-26,New,Yes,Attended
+P1182,81.0,Male,Orthopedics,2025-04-08,2025-03-22,Follow-up,Yes,Attended
+P1183,65.0,Female,General Medicine,2025-05-13,2025-04-21,Follow-up,Yes,No-show
+P1184,58.0,Female,Dermatology,2025-02-03,2025-02-03,New,Yes,Attended
+P1185,71.0,Male,,2025-04-14,2025-03-23,New,Yes,Attended
+P1186,19.0,Male,Cardiology,2025-03-03,2025-03-02,New,No,Attended
+P1187,79.0,Female,,2025-02-23,2025-02-23,Follow-up,Yes,Attended
+P1188,40.0,Male,General Medicine,2025-01-10,2024-12-21,Follow-up,Yes,Attended
+P1189,75.0,Male,Dermatology,2025-03-04,2025-02-22,Follow-up,Yes,No-show
+P1190,63.0,Male,Pediatrics,2025-03-25,2025-03-19,Follow-up,Yes,Attended
+P1191,38.0,Female,Orthopedics,2025-03-01,2025-02-14,New,Yes,Attended
+P1192,78.0,Female,Orthopedics,2025-02-01,2025-01-09,New,No,No-show
+P1193,34.0,Male,Cardiology,2025-06-03,2025-06-03,Follow-up,Yes,Attended
+P1194,32.0,Female,Orthopedics,2025-04-02,2025-03-18,Follow-up,No,Attended
+P1195,49.0,Female,Dermatology,2025-02-12,2025-01-29,Follow-up,Yes,No-show
+P1196,51.0,Female,Orthopedics,2025-03-19,2025-03-13,Follow-up,No,No-show
+P1197,45.0,Female,General Medicine,2025-05-07,2025-04-18,Follow-up,Yes,Attended
+P1198,76.0,Male,General Medicine,2025-01-16,2025-01-02,Follow-up,Yes,Attended
+P1199,46.0,Male,Dermatology,2025-06-18,2025-05-22,Follow-up,Yes,No-show
+P1200,62.0,Male,Cardiology,2025-03-01,2025-02-28,Follow-up,No,Attended
+P1201,34.0,Female,Cardiology,2025-02-26,2025-01-30,New,Yes,Attended
+P1202,75.0,Female,Orthopedics,2025-03-10,2025-02-13,Follow-up,No,No-show
+P1203,32.0,Female,Pediatrics,2025-02-18,2025-01-23,New,Yes,No-show
+P1204,80.0,Male,Orthopedics,2025-02-04,2025-01-22,Follow-up,Yes,Attended
+P1205,56.0,Female,Pediatrics,2025-02-05,2025-01-24,Follow-up,Yes,No-show
+P1206,68.0,Female,General Medicine,2025-05-10,2025-04-16,Follow-up,Yes,Attended
+P1207,62.0,Female,General Medicine,2025-05-15,2025-05-15,Follow-up,Yes,Attended
+P1208,43.0,Male,Dermatology,2025-01-14,2024-12-18,Follow-up,No,Attended
+P1209,66.0,Female,General Medicine,2025-03-03,2025-02-13,Follow-up,Yes,Attended
+P1210,68.0,Male,Dermatology,2025-03-28,2025-03-28,Follow-up,No,No-show
+P1211,21.0,Female,General Medicine,2025-03-10,2025-03-04,New,Yes,Attended
+P1212,56.0,Male,General Medicine,2025-06-28,2025-06-27,Follow-up,No,Attended
+P1213,82.0,Female,General Medicine,2025-05-10,2025-05-08,New,Yes,Attended
+P1214,31.0,Male,General Medicine,2025-03-26,2025-03-16,New,No,No-show
+P1215,53.0,Male,Orthopedics,2025-02-24,2025-02-07,New,Yes,Attended
+P1216,32.0,Female,General Medicine,2025-05-16,2025-04-23,Follow-up,No,Attended
+P1217,32.0,Female,General Medicine,2025-05-05,2025-04-13,Follow-up,Yes,Attended
+P1218,83.0,Female,Dermatology,2025-02-24,2025-02-05,Follow-up,Yes,Attended
+P1219,66.0,Male,Cardiology,2025-05-01,2025-04-04,New,No,Attended
+P1220,47.0,Female,General Medicine,2025-01-19,2025-01-12,Follow-up,Yes,Attended
+P1221,23.0,Male,Orthopedics,2025-03-05,2025-03-04,New,,Attended
+P1222,55.0,Male,Dermatology,2025-03-02,2025-02-08,Follow-up,Yes,Attended
+P1223,46.0,Male,Dermatology,2025-05-07,2025-04-19,Follow-up,No,No-show
+P1224,,Male,Pediatrics,2025-04-03,2025-03-21,Follow-up,Yes,Attended
+P1225,18.0,Female,General Medicine,2025-02-12,2025-02-05,Follow-up,Yes,No-show
+P1226,66.0,Female,General Medicine,2025-04-13,2025-04-13,Follow-up,Yes,No-show
+P1227,79.0,Female,Pediatrics,2025-01-06,2024-12-11,Follow-up,No,Attended
+P1228,85.0,Male,Orthopedics,2025-01-27,2025-01-27,New,No,Attended
+P1229,79.0,Female,General Medicine,2025-03-14,2025-02-19,New,No,Attended
+P1230,35.0,Male,General Medicine,2025-06-01,2025-05-24,Follow-up,No,Attended
+P1231,65.0,Male,General Medicine,2025-03-12,2025-03-05,Follow-up,No,Attended
+P1232,65.0,Female,Cardiology,2025-04-10,2025-04-01,Follow-up,No,Attended
+P1233,54.0,Male,General Medicine,2025-04-28,2025-04-14,Follow-up,Yes,No-show
+P1234,85.0,Female,Dermatology,2025-04-09,2025-04-03,Follow-up,Yes,Attended
+P1235,26.0,Male,Orthopedics,2025-02-17,2025-02-16,Follow-up,Yes,Attended
+P1236,51.0,Male,General Medicine,2025-05-23,2025-05-06,Follow-up,Yes,Attended
+P1237,68.0,Female,Dermatology,2025-05-29,2025-05-14,Follow-up,Yes,No-show
+P1238,65.0,Female,Dermatology,2025-05-19,2025-04-21,Follow-up,Yes,Attended
+P1239,,Male,Orthopedics,2025-05-20,2025-05-05,Follow-up,No,No-show
+P1240,20.0,Female,,2025-04-28,2025-04-28,Follow-up,No,Attended
+P1241,79.0,Male,General Medicine,2025-04-08,2025-03-23,Follow-up,Yes,Attended
+P1242,24.0,Female,Dermatology,2025-02-13,2025-01-18,New,Yes,No-show
+P1243,47.0,Female,Dermatology,2025-05-28,2025-05-27,Follow-up,No,No-show
+P1244,22.0,Male,Cardiology,2025-02-26,2025-02-02,Follow-up,No,No-show
+P1245,26.0,Female,Cardiology,2025-03-07,2025-02-12,Follow-up,No,Attended
+P1246,34.0,Female,Orthopedics,2025-04-17,2025-04-14,New,Yes,Attended
+P1247,58.0,Female,General Medicine,2025-01-12,2025-01-10,New,No,Attended
+P1248,59.0,Male,General Medicine,2025-06-03,2025-05-11,New,Yes,Attended
+P1249,43.0,Female,General Medicine,2025-01-17,2025-01-10,Follow-up,Yes,Attended
+P1250,67.0,Female,General Medicine,2025-04-15,2025-04-03,Follow-up,No,Attended
+P1251,62.0,Male,General Medicine,2025-01-03,2025-01-03,New,No,Attended
+P1252,30.0,Female,Orthopedics,2025-03-15,2025-03-15,New,No,Attended
+P1253,23.0,Female,Cardiology,2025-04-16,2025-04-15,Follow-up,Yes,Attended
+P1254,51.0,Male,General Medicine,2025-03-17,2025-02-23,Follow-up,No,Attended
+P1255,50.0,Female,Pediatrics,2025-04-20,2025-04-20,Follow-up,Yes,Attended
+P1256,67.0,Female,Pediatrics,2025-02-24,2025-02-05,New,No,Attended
+P1257,69.0,Female,Pediatrics,2025-04-26,2025-04-19,Follow-up,Yes,No-show
+P1258,46.0,Male,General Medicine,2025-01-10,2024-12-18,New,Yes,Attended
+P1259,64.0,Female,Cardiology,2025-06-12,2025-05-18,New,No,Attended
+P1260,42.0,Male,Pediatrics,2025-01-25,2025-01-16,Follow-up,Yes,Attended
+P1261,46.0,Female,Dermatology,2025-02-16,2025-01-25,Follow-up,Yes,Attended
+P1262,35.0,Male,Orthopedics,2025-02-23,2025-02-20,Follow-up,Yes,Attended
+P1263,27.0,Male,Dermatology,2025-03-03,2025-02-26,Follow-up,No,Attended
+P1264,73.0,Male,General Medicine,2025-04-06,2025-03-22,New,Yes,No-show
+P1265,18.0,Male,Cardiology,2025-06-03,2025-05-22,Follow-up,No,Attended
+P1266,82.0,Female,Orthopedics,2025-03-08,2025-02-26,New,Yes,Attended
+P1267,73.0,Male,General Medicine,2025-05-13,2025-05-07,New,Yes,Attended
+P1268,41.0,Female,Dermatology,2025-06-02,2025-05-08,New,No,No-show
+P1269,81.0,Female,Pediatrics,2025-06-06,2025-05-12,Follow-up,No,Attended
+P1270,,Male,Dermatology,2025-02-17,2025-01-22,New,Yes,Attended
+P1271,42.0,Male,Cardiology,2025-03-29,2025-03-17,Follow-up,Yes,Attended
+P1272,75.0,Female,General Medicine,2025-01-02,2024-12-04,Follow-up,No,Attended
+P1273,43.0,Female,Dermatology,2025-06-16,2025-06-08,Follow-up,No,Attended
+P1274,56.0,Male,Pediatrics,2025-04-13,2025-04-13,Follow-up,No,Attended
+P1275,64.0,Female,General Medicine,2025-01-08,2025-01-08,New,Yes,Attended
+P1276,55.0,Female,General Medicine,2025-05-04,2025-04-05,New,Yes,No-show
+P1277,30.0,Female,Orthopedics,2025-03-12,2025-02-28,New,Yes,Attended
+P1278,48.0,Female,Orthopedics,2025-06-27,2025-06-18,Follow-up,No,Attended
+P1279,54.0,Male,General Medicine,2025-05-09,2025-04-11,Follow-up,No,Attended
+P1280,47.0,Female,,2025-05-27,2025-05-15,New,No,Attended
+P1281,72.0,Male,General Medicine,2025-01-18,2025-01-18,Follow-up,No,Attended
+P1282,82.0,Female,Orthopedics,2025-06-25,2025-05-29,New,No,Attended
+P1283,64.0,Male,Dermatology,2025-05-19,2025-05-19,New,No,No-show
+P1284,54.0,Female,Orthopedics,2025-05-22,2025-05-19,New,No,Attended
+P1285,46.0,Male,Pediatrics,2025-05-01,2025-04-03,Follow-up,Yes,Attended
+P1286,84.0,Female,General Medicine,2025-04-14,2025-04-11,Follow-up,Yes,Attended
+P1287,31.0,Female,Dermatology,2025-01-18,2024-12-31,Follow-up,No,No-show
+P1288,78.0,Male,General Medicine,2025-05-04,2025-04-15,Follow-up,Yes,Attended
+P1289,21.0,Male,Pediatrics,2025-01-18,2025-01-01,,Yes,Attended
+P1290,68.0,Female,Cardiology,2025-02-04,,Follow-up,Yes,No-show
+P1291,44.0,Female,Dermatology,2025-04-12,2025-04-11,Follow-up,Yes,Attended
+P1292,84.0,Female,Orthopedics,2025-05-01,2025-04-24,New,No,Attended
+P1293,26.0,Female,Dermatology,2025-04-07,2025-03-15,Follow-up,Yes,Attended
+P1294,46.0,Female,Cardiology,2025-01-30,2025-01-13,Follow-up,Yes,No-show
+P1295,34.0,Female,Cardiology,2025-01-20,2024-12-22,Follow-up,No,Attended
+P1296,,Male,Orthopedics,2025-01-24,2025-01-12,Follow-up,Yes,Attended
+P1297,68.0,Male,Dermatology,2025-01-19,2024-12-24,Follow-up,No,Attended
+P1298,85.0,Male,Orthopedics,2025-04-23,2025-04-03,New,Yes,Attended
+P1299,53.0,Female,Pediatrics,2025-04-11,2025-03-31,Follow-up,No,Attended
+P1300,25.0,Male,Pediatrics,2025-01-31,2025-01-09,,Yes,No-show
+P1301,26.0,Male,General Medicine,2025-02-07,2025-01-15,Follow-up,Yes,Attended
+P1302,74.0,Female,Dermatology,2025-04-25,2025-04-25,Follow-up,Yes,Attended
+P1303,32.0,Female,Cardiology,2025-05-07,2025-05-01,New,Yes,No-show
+P1304,75.0,Male,Dermatology,2025-01-14,2025-01-03,Follow-up,No,No-show
+P1305,36.0,,General Medicine,2025-04-08,2025-03-17,Follow-up,Yes,Attended
+P1306,52.0,Female,General Medicine,2025-03-04,2025-02-03,New,No,Attended
+P1307,35.0,Male,Orthopedics,2025-01-08,2025-01-08,Follow-up,Yes,Attended
+P1308,36.0,Female,General Medicine,2025-03-28,2025-03-18,New,No,Attended
+P1309,51.0,Female,General Medicine,2025-03-01,2025-02-10,Follow-up,Yes,Attended
+P1310,52.0,Male,Orthopedics,2025-04-07,2025-03-26,Follow-up,No,Attended
+P1311,80.0,Male,Pediatrics,2025-06-21,2025-05-30,Follow-up,,Attended
+P1312,27.0,Female,Cardiology,2025-06-06,2025-05-29,New,No,Attended
+P1313,32.0,Male,General Medicine,2025-01-30,2024-12-31,New,,Attended
+P1314,55.0,Male,Pediatrics,2025-05-13,2025-05-03,New,Yes,Attended
+P1315,68.0,Female,Dermatology,2025-04-15,,Follow-up,Yes,Attended
+P1316,52.0,Male,General Medicine,2025-04-12,2025-03-15,Follow-up,Yes,Attended
+P1317,52.0,Male,Orthopedics,2025-06-20,2025-06-17,New,Yes,Attended
+P1318,72.0,Male,Orthopedics,2025-02-01,2025-01-11,Follow-up,No,Attended
+P1319,47.0,Male,Pediatrics,2025-05-19,2025-04-29,Follow-up,No,Attended
+P1320,51.0,Female,General Medicine,2025-02-03,2025-02-03,Follow-up,Yes,Attended
+P1321,31.0,Male,General Medicine,2025-06-21,2025-05-27,Follow-up,Yes,No-show
+P1322,52.0,Female,General Medicine,2025-05-20,2025-05-11,Follow-up,No,Attended
+P1323,56.0,Female,Orthopedics,2025-06-15,2025-06-15,Follow-up,No,Attended
+P1324,82.0,Female,Pediatrics,2025-04-08,2025-04-06,Follow-up,Yes,Attended
+P1325,35.0,Female,Cardiology,2025-05-12,2025-05-12,Follow-up,Yes,No-show
+P1326,37.0,Female,Dermatology,2025-03-26,2025-03-10,Follow-up,No,Attended
+P1327,37.0,Male,General Medicine,2025-04-28,2025-04-28,Follow-up,Yes,Attended
+P1328,49.0,Male,General Medicine,2025-04-24,2025-04-16,Follow-up,No,Attended
+P1329,19.0,Male,Orthopedics,2025-03-29,2025-03-18,New,No,No-show
+P1330,62.0,Female,General Medicine,2025-05-17,2025-05-09,Follow-up,Yes,Attended
+P1331,61.0,Female,Dermatology,2025-05-03,2025-05-03,Follow-up,No,Attended
+P1332,29.0,Female,Cardiology,2025-05-07,2025-04-18,Follow-up,Yes,Attended
+P1333,20.0,Female,Orthopedics,2025-01-19,2025-01-05,New,Yes,Attended
+P1334,69.0,Female,Dermatology,2025-04-14,2025-04-01,Follow-up,Yes,Attended
+P1335,24.0,Female,Orthopedics,2025-04-08,2025-04-01,Follow-up,Yes,Attended
+P1336,52.0,Male,Dermatology,2025-06-12,2025-05-27,Follow-up,Yes,Attended
+P1337,33.0,Male,Pediatrics,2025-03-05,,Follow-up,Yes,Attended
+P1338,40.0,Male,Pediatrics,2025-04-20,2025-03-24,Follow-up,No,No-show
+P1339,38.0,Male,Pediatrics,2025-06-09,2025-05-23,Follow-up,Yes,Attended
+P1340,19.0,Male,Dermatology,2025-05-22,2025-05-18,New,No,Attended
+P1341,,Male,Cardiology,2025-02-05,2025-01-15,New,No,Attended
+P1342,23.0,Female,General Medicine,2025-06-09,2025-05-18,Follow-up,Yes,Attended
+P1343,25.0,Female,Dermatology,2025-06-16,2025-05-18,Follow-up,No,Attended
+P1344,45.0,Female,General Medicine,2025-01-05,2024-12-22,Follow-up,No,Attended
+P1345,74.0,Female,General Medicine,2025-01-24,2025-01-06,Follow-up,No,No-show
+P1346,62.0,Female,Orthopedics,2025-06-14,2025-06-04,Follow-up,Yes,Attended
+P1347,30.0,Female,Cardiology,2025-02-08,2025-02-08,Follow-up,Yes,Attended
+P1348,34.0,Female,Orthopedics,2025-02-11,2025-01-30,Follow-up,,No-show
+P1349,60.0,Female,Cardiology,2025-02-17,2025-02-13,New,No,Attended
+P1350,48.0,Female,Dermatology,2025-03-22,,Follow-up,Yes,Attended
+P1351,57.0,Male,General Medicine,2025-03-10,2025-03-04,Follow-up,No,Attended
+P1352,48.0,Male,General Medicine,2025-05-01,2025-04-10,Follow-up,No,Attended
+P1353,84.0,Male,Dermatology,2025-06-15,2025-06-15,New,No,Attended
+P1354,39.0,Male,Dermatology,2025-06-25,2025-06-13,Follow-up,No,Attended
+P1355,76.0,Female,General Medicine,2025-03-20,2025-03-20,New,Yes,Attended
+P1356,66.0,Female,Dermatology,2025-06-24,2025-06-02,Follow-up,No,No-show
+P1357,30.0,Male,,2025-03-24,2025-02-25,New,No,Attended
+P1358,65.0,Male,Pediatrics,2025-05-26,2025-05-04,New,Yes,Attended
+P1359,76.0,Female,Orthopedics,2025-03-29,2025-03-18,Follow-up,No,Attended
+P1360,24.0,Female,,2025-03-15,2025-02-27,Follow-up,Yes,No-show
+P1361,78.0,Female,General Medicine,2025-05-28,2025-05-23,Follow-up,No,Attended
+P1362,29.0,Female,General Medicine,2025-03-12,2025-03-08,Follow-up,Yes,Attended
+P1363,66.0,Male,General Medicine,2025-06-05,2025-05-20,Follow-up,Yes,No-show
+P1364,26.0,Female,General Medicine,2025-05-28,2025-05-02,Follow-up,No,Attended
+P1365,55.0,Male,Orthopedics,2025-05-22,2025-04-26,New,No,Attended
+P1366,75.0,Female,Pediatrics,2025-04-14,2025-04-12,Follow-up,Yes,Attended
+P1367,78.0,Female,General Medicine,2025-04-15,2025-04-03,New,No,Attended
+P1368,43.0,Male,Cardiology,2025-04-30,2025-04-28,Follow-up,Yes,Attended
+P1369,54.0,Female,Pediatrics,2025-06-23,2025-05-27,Follow-up,Yes,Attended
+P1370,65.0,Female,General Medicine,2025-04-04,2025-04-04,New,Yes,Attended
+P1371,63.0,Female,,2025-05-30,2025-05-27,Follow-up,No,Attended
+P1372,83.0,Female,Dermatology,2025-05-04,2025-04-29,Follow-up,No,Attended
+P1373,40.0,Male,Dermatology,2025-03-29,2025-03-09,Follow-up,,No-show
+P1374,54.0,Male,Cardiology,2025-06-01,2025-05-20,Follow-up,Yes,Attended
+P1375,31.0,Female,Pediatrics,2025-01-01,2024-12-24,Follow-up,No,Attended
+P1376,83.0,Male,Pediatrics,2025-03-31,2025-03-08,Follow-up,No,Attended
+P1377,27.0,Male,General Medicine,2025-05-01,2025-04-16,Follow-up,No,No-show
+P1378,69.0,Male,Pediatrics,2025-03-01,2025-02-06,Follow-up,No,Attended
+P1379,69.0,Female,General Medicine,2025-04-03,2025-03-05,Follow-up,Yes,No-show
+P1380,30.0,Female,Dermatology,2025-06-10,2025-06-08,Follow-up,Yes,Attended
+P1381,21.0,Male,Dermatology,2025-02-25,2025-02-16,Follow-up,Yes,Attended
+P1382,29.0,Female,Dermatology,2025-05-05,,Follow-up,No,Attended
+P1383,49.0,Male,Orthopedics,2025-06-10,2025-05-13,Follow-up,Yes,Attended
+P1384,57.0,Male,Dermatology,2025-06-28,2025-06-28,New,Yes,Attended
+P1385,85.0,Female,Orthopedics,2025-03-16,2025-03-02,Follow-up,Yes,No-show
+P1386,20.0,Female,Orthopedics,2025-04-01,2025-03-25,Follow-up,No,Attended
+P1387,81.0,Female,Dermatology,2025-02-20,2025-02-11,Follow-up,No,Attended
+P1388,69.0,Male,General Medicine,2025-01-09,2025-01-09,Follow-up,Yes,Attended
+P1389,42.0,Female,Orthopedics,2025-06-22,2025-06-06,New,Yes,Attended
+P1390,49.0,Female,General Medicine,2025-02-10,2025-02-05,Follow-up,No,Attended
+P1391,85.0,Female,General Medicine,2025-05-21,2025-04-27,Follow-up,Yes,Attended
+P1392,52.0,Female,Pediatrics,2025-01-29,2025-01-26,Follow-up,Yes,Attended
+P1393,20.0,Female,Pediatrics,2025-02-10,2025-02-10,New,No,Attended
+P1394,18.0,Male,General Medicine,2025-04-01,2025-03-07,Follow-up,Yes,No-show
+P1395,59.0,Female,Dermatology,2025-03-24,2025-02-24,Follow-up,No,Attended
+P1396,25.0,Male,Orthopedics,2025-06-22,2025-05-25,Follow-up,Yes,No-show
+P1397,44.0,Female,General Medicine,2025-02-26,2025-02-26,Follow-up,Yes,Attended
+P1398,53.0,Female,General Medicine,2025-06-22,2025-06-08,Follow-up,Yes,No-show
+P1399,54.0,Male,Dermatology,2025-04-30,2025-04-29,New,Yes,Attended
+P1400,55.0,Female,Pediatrics,2025-02-10,2025-01-27,New,,No-show
+P1401,39.0,Female,Orthopedics,2025-05-08,2025-04-22,New,Yes,Attended
+P1402,84.0,Male,General Medicine,2025-04-07,2025-03-15,New,No,Attended
+P1403,55.0,Male,Cardiology,2025-04-11,2025-03-30,New,Yes,Attended
+P1404,49.0,Male,General Medicine,2025-06-01,,Follow-up,No,Attended
+P1405,69.0,Female,Orthopedics,2025-02-14,2025-01-20,Follow-up,Yes,No-show
+P1406,53.0,Female,General Medicine,2025-03-01,2025-02-26,New,No,Attended
+P1407,36.0,Female,Dermatology,2025-03-31,2025-03-31,New,Yes,Attended
+P1408,83.0,Male,Orthopedics,2025-02-07,2025-01-16,New,No,Attended
+P1409,45.0,Female,Dermatology,2025-02-27,2025-02-10,Follow-up,Yes,Attended
+P1410,66.0,Male,Pediatrics,2025-02-18,2025-02-18,Follow-up,Yes,No-show
+P1411,,Female,Dermatology,2025-02-23,2025-02-08,Follow-up,Yes,Attended
+P1412,50.0,Female,Cardiology,2025-06-06,2025-05-15,New,Yes,Attended
+P1413,42.0,Female,Cardiology,2025-01-18,2024-12-28,New,,Attended
+P1414,83.0,Male,Dermatology,2025-03-07,2025-02-20,Follow-up,Yes,Attended
+P1415,55.0,Male,General Medicine,2025-05-24,2025-05-09,Follow-up,Yes,Attended
+P1416,54.0,Male,General Medicine,2025-01-20,2025-01-15,Follow-up,Yes,Attended
+P1417,60.0,Female,Orthopedics,2025-04-04,2025-03-06,Follow-up,Yes,Attended
+P1418,82.0,Male,General Medicine,2025-01-22,2025-01-18,,Yes,Attended
+P1419,72.0,Male,Dermatology,2025-05-30,2025-05-10,Follow-up,Yes,Attended
+P1420,36.0,Male,General Medicine,2025-04-09,2025-03-10,Follow-up,No,Attended
+P1421,79.0,Male,Dermatology,2025-02-27,2025-02-13,,Yes,Attended
+P1422,58.0,Male,General Medicine,2025-01-27,2025-01-16,Follow-up,Yes,No-show
+P1423,68.0,Male,Orthopedics,2025-06-22,2025-06-02,Follow-up,Yes,Attended
+P1424,18.0,Female,Pediatrics,2025-06-13,2025-06-03,Follow-up,Yes,No-show
+P1425,25.0,Male,Pediatrics,2025-04-11,2025-03-29,Follow-up,No,Attended
+P1426,25.0,Female,Orthopedics,2025-02-21,2025-02-19,Follow-up,No,Attended
+P1427,49.0,Male,General Medicine,2025-02-15,2025-02-02,Follow-up,No,Attended
+P1428,69.0,Male,Dermatology,2025-06-14,2025-06-05,Follow-up,Yes,Attended
+P1429,45.0,Female,Orthopedics,2025-01-07,2024-12-08,Follow-up,Yes,Attended
+P1430,77.0,Male,Pediatrics,2025-04-03,2025-03-13,Follow-up,No,No-show
+P1431,,Female,Orthopedics,2025-05-31,2025-05-15,Follow-up,No,No-show
+P1432,72.0,Male,General Medicine,2025-03-02,2025-03-02,Follow-up,No,Attended
+P1433,73.0,Female,General Medicine,2025-06-02,2025-05-09,Follow-up,Yes,Attended
+P1434,76.0,Female,Orthopedics,2025-04-02,2025-04-02,Follow-up,No,Attended
+P1435,73.0,Male,General Medicine,2025-06-18,2025-05-30,Follow-up,No,Attended
+P1436,31.0,Female,General Medicine,2025-06-02,2025-05-22,New,Yes,Attended
+P1437,71.0,Male,Pediatrics,2025-01-15,2024-12-20,Follow-up,Yes,Attended
+P1438,66.0,Male,General Medicine,2025-02-23,2025-02-23,Follow-up,Yes,Attended
+P1439,24.0,Male,General Medicine,2025-03-20,2025-02-21,Follow-up,Yes,Attended
+P1440,26.0,Female,Cardiology,2025-01-07,2025-01-06,Follow-up,Yes,Attended
+P1441,26.0,Female,Cardiology,2025-02-08,2025-02-08,Follow-up,Yes,Attended
+P1442,77.0,Male,Pediatrics,2025-02-23,2025-02-17,Follow-up,No,No-show
+P1443,21.0,Female,General Medicine,2025-04-29,2025-04-25,Follow-up,Yes,Attended
+P1444,85.0,,General Medicine,2025-05-03,2025-05-03,New,,No-show
+P1445,60.0,Female,General Medicine,2025-05-07,2025-05-01,Follow-up,Yes,Attended
+P1446,42.0,,General Medicine,2025-05-03,2025-04-26,Follow-up,Yes,Attended
+P1447,44.0,Female,Pediatrics,2025-03-21,2025-03-08,Follow-up,No,Attended
+P1448,79.0,Female,Cardiology,2025-03-19,2025-02-17,New,Yes,Attended
+P1449,20.0,Male,Cardiology,2025-01-17,2024-12-18,Follow-up,Yes,No-show
+P1450,46.0,Female,Pediatrics,2025-04-27,2025-04-22,Follow-up,No,Attended
+P1451,62.0,Female,General Medicine,2025-05-30,2025-05-16,New,No,Attended
+P1452,72.0,Female,Dermatology,2025-01-12,2025-01-02,Follow-up,No,Attended
+P1453,74.0,Female,General Medicine,2025-04-28,2025-04-20,Follow-up,No,Attended
+P1454,40.0,Male,Orthopedics,2025-01-20,2025-01-20,Follow-up,No,Attended
+P1455,24.0,Male,General Medicine,2025-05-14,2025-04-22,Follow-up,Yes,Attended
+P1456,45.0,Female,Pediatrics,2025-04-17,2025-04-17,Follow-up,No,Attended
+P1457,32.0,Female,General Medicine,2025-04-08,2025-03-24,Follow-up,Yes,Attended
+P1458,32.0,Male,Orthopedics,2025-03-27,2025-03-27,New,No,No-show
+P1459,38.0,Female,Cardiology,2025-02-14,2025-02-07,New,Yes,Attended
+P1460,49.0,Female,Orthopedics,2025-01-24,2025-01-24,New,Yes,Attended
+P1461,69.0,Male,Pediatrics,2025-05-28,2025-04-30,New,,No-show
+P1462,51.0,Female,Dermatology,2025-05-12,2025-04-23,Follow-up,Yes,Attended
+P1463,58.0,Male,Orthopedics,2025-02-16,2025-02-01,Follow-up,No,No-show
+P1464,67.0,Male,Cardiology,2025-03-04,2025-02-06,Follow-up,No,Attended
+P1465,76.0,Female,Pediatrics,2025-04-19,2025-04-11,Follow-up,Yes,Attended
+P1466,23.0,Female,Orthopedics,2025-05-25,2025-04-26,Follow-up,No,Attended
+P1467,21.0,Female,Pediatrics,2025-03-22,2025-03-22,Follow-up,Yes,No-show
+P1468,37.0,Male,Cardiology,2025-03-10,2025-02-13,Follow-up,,Attended
+P1469,60.0,Male,General Medicine,2025-06-07,2025-05-24,Follow-up,No,Attended
+P1470,20.0,Female,Orthopedics,2025-04-15,2025-03-24,New,No,No-show
+P1471,68.0,Male,General Medicine,2025-05-31,2025-05-31,Follow-up,Yes,Attended
+P1472,,Female,Pediatrics,2025-05-09,2025-04-09,New,Yes,Attended
+P1473,49.0,Female,General Medicine,2025-02-22,2025-02-21,New,Yes,Attended
+P1474,69.0,Male,Dermatology,2025-05-27,2025-05-03,Follow-up,Yes,Attended
+P1475,36.0,Female,Orthopedics,2025-04-09,2025-03-17,New,No,No-show
+P1476,80.0,Female,General Medicine,2025-06-08,2025-05-09,Follow-up,No,Attended
+P1477,34.0,Male,Pediatrics,2025-04-21,2025-04-13,New,No,Attended
+P1478,83.0,Female,General Medicine,2025-02-19,2025-02-19,Follow-up,No,No-show
+P1479,79.0,Female,Dermatology,2025-04-17,2025-03-18,Follow-up,Yes,Attended
+P1480,30.0,Female,Dermatology,2025-03-10,2025-03-10,,Yes,Attended
+P1481,80.0,Male,Dermatology,2025-06-18,2025-06-16,Follow-up,No,Attended
+P1482,78.0,Male,Orthopedics,2025-04-27,2025-04-01,Follow-up,Yes,Attended
+P1483,37.0,Male,,2025-02-24,2025-02-04,New,Yes,Attended
+P1484,24.0,Female,General Medicine,2025-01-26,2025-01-22,New,No,Attended
+P1485,69.0,Female,General Medicine,2025-02-14,,Follow-up,No,Attended
+P1486,50.0,Female,Dermatology,2025-01-11,,Follow-up,Yes,Attended
+P1487,60.0,Male,General Medicine,2025-01-04,2025-01-04,Follow-up,Yes,Attended
+P1488,47.0,Female,Pediatrics,2025-02-07,2025-01-18,Follow-up,Yes,Attended
+P1489,84.0,Female,Pediatrics,2025-05-14,2025-05-01,Follow-up,Yes,Attended
+P1490,52.0,Female,Cardiology,2025-01-04,2024-12-08,New,Yes,Attended
+P1491,55.0,Female,Orthopedics,2025-05-11,2025-04-30,Follow-up,No,Attended
+P1492,82.0,Female,General Medicine,2025-06-22,2025-05-26,Follow-up,Yes,No-show
+P1493,61.0,Male,General Medicine,2025-06-27,2025-06-15,Follow-up,Yes,No-show
+P1494,48.0,,General Medicine,2025-04-19,2025-04-19,Follow-up,No,Attended
+P1495,76.0,Male,General Medicine,2025-06-16,2025-06-16,Follow-up,Yes,Attended
+P1496,85.0,Male,Orthopedics,2025-02-10,,New,Yes,Attended
+P1497,79.0,Male,Cardiology,2025-06-08,2025-06-06,New,Yes,Attended
+P1498,79.0,Male,General Medicine,2025-01-12,,Follow-up,Yes,Attended
+P1499,76.0,Male,Cardiology,2025-05-04,,New,No,No-show
+P1500,55.0,Female,Pediatrics,2025-01-16,2024-12-28,Follow-up,Yes,Attended
+P1501,79.0,Female,Cardiology,2025-06-07,,Follow-up,Yes,Attended
+P1502,61.0,Female,General Medicine,2025-03-21,2025-02-24,Follow-up,No,Attended
+P1503,31.0,Male,General Medicine,2025-02-09,,New,,Attended
+P1504,33.0,Female,,2025-06-30,2025-06-06,New,Yes,Attended
+P1505,39.0,Male,General Medicine,2025-05-25,2025-05-22,Follow-up,No,Attended
+P1506,63.0,Male,Orthopedics,2025-02-28,2025-02-05,New,No,Attended
+P1507,45.0,Female,,2025-03-05,2025-02-03,Follow-up,No,No-show
+P1508,79.0,Female,General Medicine,2025-02-14,2025-02-11,Follow-up,No,Attended
+P1509,29.0,Female,General Medicine,2025-06-05,2025-06-05,Follow-up,No,Attended
+P1510,82.0,Female,General Medicine,2025-05-03,2025-04-17,Follow-up,Yes,Attended
+P1511,84.0,Male,Cardiology,2025-05-28,2025-04-28,Follow-up,Yes,No-show
+P1512,,Male,General Medicine,2025-04-19,2025-03-24,Follow-up,Yes,Attended
+P1513,79.0,Male,General Medicine,2025-01-02,2024-12-13,Follow-up,Yes,Attended
+P1514,77.0,Male,Dermatology,2025-06-08,2025-06-05,Follow-up,Yes,Attended
+P1515,73.0,Female,Pediatrics,2025-01-12,2024-12-27,Follow-up,Yes,Attended
+P1516,84.0,Male,Dermatology,2025-04-26,2025-04-20,Follow-up,,Attended
+P1517,83.0,Female,Orthopedics,2025-02-16,2025-02-16,Follow-up,,Attended
+P1518,41.0,Female,Dermatology,2025-02-03,2025-01-26,Follow-up,Yes,Attended
+P1519,37.0,Female,Orthopedics,2025-04-09,2025-03-10,Follow-up,No,Attended
+P1520,56.0,Female,General Medicine,2025-04-12,2025-03-30,Follow-up,No,Attended
+P1521,53.0,Male,General Medicine,2025-01-20,2025-01-03,Follow-up,Yes,Attended
+P1522,64.0,Female,General Medicine,2025-05-20,2025-05-08,Follow-up,Yes,Attended
+P1523,29.0,Female,Dermatology,2025-03-31,2025-03-19,,No,Attended
+P1524,62.0,Female,Pediatrics,2025-01-24,,Follow-up,No,Attended
+P1525,53.0,Female,General Medicine,2025-06-02,2025-05-21,Follow-up,,Attended
+P1526,54.0,Male,Pediatrics,2025-04-28,2025-04-28,Follow-up,Yes,Attended
+P1527,43.0,Female,Pediatrics,2025-02-04,2025-01-11,Follow-up,No,No-show
+P1528,55.0,Male,General Medicine,2025-03-29,2025-03-19,New,No,Attended
+P1529,20.0,Female,Dermatology,2025-03-22,2025-03-21,Follow-up,Yes,Attended
+P1530,40.0,Female,General Medicine,2025-01-05,2024-12-26,New,No,No-show
+P1531,41.0,Female,General Medicine,2025-03-09,2025-02-13,Follow-up,Yes,Attended
+P1532,32.0,Male,Cardiology,2025-01-01,2024-12-24,Follow-up,No,Attended
+P1533,72.0,Male,Orthopedics,2025-06-28,2025-06-27,New,Yes,Attended
+P1534,41.0,Female,Cardiology,2025-05-21,2025-05-21,New,Yes,Attended
+P1535,65.0,Male,General Medicine,2025-03-17,2025-03-06,Follow-up,No,No-show
+P1536,46.0,Male,Pediatrics,2025-03-08,2025-02-26,Follow-up,Yes,Attended
+P1537,22.0,Male,Pediatrics,2025-06-26,2025-06-07,New,No,Attended
+P1538,60.0,,Dermatology,2025-02-05,2025-01-23,New,Yes,Attended
+P1539,33.0,Male,General Medicine,2025-03-01,2025-03-01,Follow-up,Yes,Attended
+P1540,46.0,Female,General Medicine,2025-06-30,2025-06-11,Follow-up,Yes,Attended
+P1541,53.0,Male,General Medicine,2025-02-03,2025-02-03,New,,Attended
+P1542,64.0,Female,Cardiology,2025-03-30,2025-03-02,Follow-up,No,Attended
+P1543,22.0,Male,Pediatrics,2025-06-28,2025-06-05,Follow-up,Yes,Attended
+P1544,48.0,Male,Dermatology,2025-06-04,2025-06-04,New,Yes,Attended
+P1545,55.0,Male,General Medicine,2025-01-22,2025-01-10,,No,Attended
+P1546,44.0,Female,Dermatology,2025-02-12,2025-02-12,Follow-up,No,Attended
+P1547,79.0,Female,General Medicine,2025-02-13,2025-01-21,Follow-up,No,Attended
+P1548,27.0,Female,General Medicine,2025-02-10,2025-01-31,New,No,Attended
+P1549,54.0,Female,Dermatology,2025-04-13,2025-03-29,Follow-up,No,Attended
+P1550,47.0,Female,Orthopedics,2025-05-04,2025-05-04,Follow-up,Yes,Attended
+P1551,66.0,Male,Orthopedics,2025-03-05,2025-02-24,Follow-up,Yes,Attended
+P1552,39.0,Female,Dermatology,2025-02-04,2025-01-14,New,No,Attended
+P1553,29.0,Female,General Medicine,2025-03-06,2025-02-15,New,Yes,Attended
+P1554,20.0,Male,Orthopedics,2025-01-29,2025-01-01,Follow-up,No,Attended
+P1555,60.0,Female,Pediatrics,2025-03-08,2025-02-24,New,Yes,Attended
+P1556,57.0,Female,General Medicine,2025-06-23,2025-05-25,Follow-up,Yes,No-show
+P1557,67.0,Male,Orthopedics,2025-03-17,2025-02-27,New,Yes,Attended
+P1558,83.0,Female,Pediatrics,2025-05-27,2025-05-13,New,Yes,Attended
+P1559,47.0,Female,Pediatrics,2025-01-18,2025-01-15,New,No,Attended
+P1560,48.0,Male,Pediatrics,2025-04-24,2025-04-24,Follow-up,Yes,Attended
+P1561,84.0,Female,Dermatology,2025-06-04,2025-05-19,Follow-up,,Attended
+P1562,50.0,Male,Orthopedics,2025-03-03,2025-03-03,New,Yes,No-show
+P1563,76.0,Female,Orthopedics,2025-01-15,2024-12-31,New,,Attended
+P1564,58.0,Female,Pediatrics,2025-05-14,2025-05-12,Follow-up,Yes,Attended
+P1565,,Male,General Medicine,2025-02-19,2025-01-25,New,,No-show
+P1566,77.0,Male,Dermatology,2025-01-09,2025-01-02,New,No,Attended
+P1567,68.0,Male,Pediatrics,2025-04-23,2025-04-23,Follow-up,No,Attended
+P1568,76.0,Male,General Medicine,2025-01-03,2024-12-23,Follow-up,Yes,Attended
+P1569,20.0,Male,Dermatology,2025-03-13,2025-03-13,New,Yes,Attended
+P1570,31.0,Female,General Medicine,2025-05-13,2025-05-10,Follow-up,Yes,No-show
+P1571,37.0,Male,Orthopedics,2025-05-03,2025-04-28,New,Yes,Attended
+P1572,60.0,Male,Dermatology,2025-04-17,2025-04-11,New,Yes,Attended
+P1573,,Female,General Medicine,2025-01-25,2024-12-26,Follow-up,Yes,No-show
+P1574,35.0,Female,General Medicine,2025-06-02,2025-05-18,Follow-up,No,Attended
+P1575,25.0,Female,Dermatology,2025-03-26,2025-03-26,Follow-up,Yes,Attended
+P1576,85.0,Female,Dermatology,2025-06-07,2025-06-07,Follow-up,Yes,Attended
+P1577,62.0,Female,General Medicine,2025-06-14,2025-05-26,Follow-up,Yes,Attended
+P1578,79.0,Female,Cardiology,2025-01-23,2025-01-19,Follow-up,Yes,No-show
+P1579,22.0,Female,Cardiology,2025-01-09,2024-12-30,Follow-up,Yes,Attended
+P1580,37.0,Female,General Medicine,2025-02-10,2025-02-10,Follow-up,Yes,Attended
+P1581,78.0,Male,Pediatrics,2025-05-02,2025-04-13,Follow-up,Yes,Attended
+P1582,68.0,Male,General Medicine,2025-03-06,2025-02-12,Follow-up,No,Attended
+P1583,40.0,Female,Cardiology,2025-05-08,2025-04-25,Follow-up,Yes,No-show
+P1584,42.0,Male,General Medicine,2025-06-19,2025-05-21,Follow-up,,No-show
+P1585,18.0,Female,Pediatrics,2025-02-16,2025-01-17,New,Yes,Attended
+P1586,79.0,Female,General Medicine,2025-06-11,2025-05-30,Follow-up,Yes,Attended
+P1587,19.0,Male,General Medicine,2025-03-09,2025-02-23,Follow-up,Yes,Attended
+P1588,52.0,Female,Dermatology,2025-03-10,2025-02-12,Follow-up,Yes,Attended
+P1589,73.0,Male,Cardiology,2025-06-17,2025-05-27,New,Yes,Attended
+P1590,24.0,Female,Cardiology,2025-03-21,2025-03-04,Follow-up,Yes,No-show
+P1591,35.0,Female,Cardiology,2025-05-10,2025-05-08,New,,Attended
+P1592,54.0,Female,Orthopedics,2025-02-16,2025-02-04,Follow-up,,Attended
+P1593,49.0,Female,Dermatology,2025-02-15,2025-02-15,Follow-up,Yes,Attended
+P1594,36.0,Female,General Medicine,2025-02-14,2025-01-31,New,Yes,Attended
+P1595,54.0,Female,Dermatology,2025-01-11,2024-12-30,Follow-up,Yes,Attended
+P1596,83.0,Male,Cardiology,2025-06-07,,Follow-up,Yes,No-show
+P1597,55.0,Male,Orthopedics,2025-03-08,2025-02-25,Follow-up,No,Attended
+P1598,,Male,Dermatology,2025-02-08,2025-01-28,Follow-up,Yes,Attended
+P1599,62.0,Female,Pediatrics,2025-05-11,2025-04-25,Follow-up,Yes,No-show
+P1600,,Male,General Medicine,2025-04-10,2025-03-25,New,Yes,Attended
